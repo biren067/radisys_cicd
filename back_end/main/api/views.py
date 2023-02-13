@@ -11,4 +11,5 @@ def intel_ru_build(request):
     reboot="no"
     ru_ip_address = "172.27.186.172"
     ru_password = "root123"
+    
     return HttpResponse("Build Intel Ru Compilation....")
